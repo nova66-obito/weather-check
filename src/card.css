@@ -1,0 +1,93 @@
+.card{
+    border-radius: 10px;
+    min-width: 30%;
+    min-height: 300px;
+    padding: 20px;
+    background:white;
+    color: rgb(37, 6, 6);
+    box-shadow: -5px 0 20px;
+}
+.text-center{
+  text-align: center;
+}
+.top{
+  display: flex;
+  flex-direction:row-reverse;
+}
+.top > input{
+    width: 100%;
+    box-shadow: 0 0 10px black;
+    padding: 14px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 25px;
+    outline: none;
+    border: 2px solid orange;
+}
+.top > h2{
+  background: white;
+  display: grid;
+  place-content: center;
+  position: relative;
+  left:-30px
+}
+ .top{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ sup{
+   font-size: 30px;
+ }
+ .down-sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 0px;
+}
+.tem > h1{
+    font-size: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ .pic > img{
+    width: 180px;
+    height: 180px;
+ }
+ .loc{
+    height: 50px;
+    padding: 10px ;
+ }
+ .loc > h2{
+   font-size: 40px;
+   text-transform: capitalize;
+ }
+ .end{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 100px;
+    align-items: center;
+ }
+ .end > div > img{
+   width: 50px;
+ }
+ @media screen and (max-width: 600px) and (min-width: 300px) {
+  .loc > h2{
+    font-size: 20px;
+  } 
+  .pic > img{
+    width: 100px;
+    height: 100px;
+  }
+  .tem > h1{
+    font-size: 50px;
+  }
+  .end > div > h2{
+    font-size: 15px;
+  }
+  .end > div > img {
+    width: 30px;
+  }
+ }
